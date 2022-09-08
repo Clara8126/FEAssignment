@@ -1,0 +1,58 @@
+
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*
+body {
+    min-height: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+*/
+
+h2 {
+    margin: 0%;
+    padding: 10px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    margin: 0%;
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.care{
+    border: 0ch;
+    margin: 0%;
+    padding: 10px;
+    display: table-row;
+    
+}
+
+.products {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    border: 6px;
+    color: black;
+    margin: 0 auto;
+  
+}
+
+.products li{
+ margin:  auto;
+  text-align: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 250px;;
+  padding: 0;
+}

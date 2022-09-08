@@ -1,0 +1,119 @@
+body {
+    height: auto;
+    margin: 0%;
+}
+
+header h1 {
+    background-color: darkgrey;
+    margin: 0%;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#navigate {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu {
+    margin: 0%;
+    background-color: lightgray;
+}
+
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li :hover {
+    background-color:darkgrey;
+}
+
+.menu li:nth-child(2):hover #DropDown_1,
+.menu li:nth-child(3):hover #DropDown_2,
+.menu li:nth-child(4):hover #DropDown_3 {
+    display: block;
+
+}
+
+#DropDown_1,
+#DropDown_2,
+#DropDown_3 {
+    position: absolute;
+    width: auto;
+    max-width: 200px;
+    display: none;
+    top: 150px;
+    background-color: black;
+    padding: 0%;
+
+}
+
+#DropDown_1 li,
+#DropDown_2 li,
+#DropDown_3 li {
+    display: block;
+}
+
+#DropDown_1 li:hover,
+#DropDown_2 li:hover,
+#DropDown_3 li:hover {
+    background-color: darkgray;
+}
+
+#DropDown_1 li a,
+#DropDown_2 li a,
+#DropDown_3 li a {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+
+.images {
+    display: inline;
+    margin: 2%;
+    padding: 30px;
+    color: steelblue;
+    animation-name: photo;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+.photo {
+    margin: 2px;
+    max-width: 100%;
+    padding: 10px;
+    height: 500px;
+    background-color: steelblue;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes photo {
+
+}
+
+
+.footer {
+    margin: 0%;
+    padding: 10px;
+    background-color: black;
+    text-align: right;
+}
+
+.footer li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}

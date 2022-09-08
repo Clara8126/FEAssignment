@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="LabTest_Form.css">
+</head>
+
+<body>
+    <div>
+        <form action="" id="lab-form">
+            <nav id="naviagte">
+                <div class="labtest">
+                    <div class="lab">
+                        <img src="C:\Users\Clara\Pharmacy\Images\Lab-Test\lab-test.jpg" alt="photo" />
+                    </div>
+            </nav>
+            <h2>1.Your Contact Details</h2>
+
+            <input type="text" title="Name" placeholder="Full Name" required>
+            <input type="text" title="Patient Id if exists" placeholder="Patient Id if exists" not required>
+            <br>
+            <input type="number" title="contact_no" min="6000000000" max="9999999999" placeholder="Contact Number"
+                required>
+            <br>
+            <input type="Email" title="email" placeholder="Email" required>
+            <br>
+
+            <h2>2.Address</h2>
+
+            <input type="text" title="House Number" placeholder="House Number" required>
+            <br>
+            <input type="text" title="Street" placeholder="Street" required>
+            <br>
+            <input type="text" title="Area" placeholder="Area" required>
+            <br>
+            <input type="text" title="District" placeholder="District" required>
+            <br>
+
+            <h2>3.Choose the Test Type</h2>
+
+            <input type="text" title="CBC" placeholder="CBC" required>
+            <br>
+            <input type="text" title="Complete Urine" placeholder="Complete Urine" required>
+            <br>
+            <input type="text" title="Lipid Profile" placeholder="Lipid Profile" required>
+            <br>
+            <input type="text" title="Thyroid Stimulating Hormone(TSH)" placeholder="Thyroid Stimulating Hormone(TSH)" required>
+            <br>
+            <input type="text" title="Glucose Test" placeholder="Glucose Test" required>
+            <br>
+
+
+            <h2>4.Do you want a hard copy of the report also?</h2>
+
+            <button form="lab-form">YES</button>
+            <button form="lab-form">NO</button>
+
+            <h2>5.Select Your Comfortable Date and Time</h2>
+
+            <input type="text" title="Date" placeholder="Date" required>
+            <br>
+            <input type="text" title="Time" placeholder="Time" required>
+            <br>
+
+
+            <button form="lab-form">Reset</button>
+            <button form="lab-form">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
